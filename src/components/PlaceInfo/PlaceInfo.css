@@ -1,0 +1,117 @@
+.info {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.info-hidden {
+    left: -450px;
+    /* transition: all .6s ease-in-out; */
+}
+.info__dialog {
+    box-sizing: border-box;
+    padding: 30px 10px;
+    width: 450px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, .5);
+}
+.info__part {
+    display: flex;
+}
+.info__progress {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+.info__date {  
+    margin: 0;
+    font-size: 20px;
+    /* text-align: center; */
+    /* text-decoration: underline; */
+}
+.info__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.info__button {
+    outline: none;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 9px;
+    color: white;
+}
+.info__images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.info__image {
+    width: 210px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    /* overflow: hidden; */
+}
+.info__image:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+}
+.info__back {
+    background-color: rgb(36,36,36);
+    margin-right: 15px;
+}
+.info__next {
+    /* margin-left: 30px; */
+    background-color: #198cff;
+}
+.info__button:hover {
+    cursor: pointer;
+}
+.info__speaker {
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+.info__toggler {
+    transform: rotate(90deg);
+    border-radius: 8px;
+    background-color: #4d4d4d;
+    position: relative;
+    top: 30px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-image: url('../../images/button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease-in-out;
+    transform: rotateZ(270deg);
+}
+.info__toggler:hover {
+    cursor: pointer;
+    background-color: #2d2d2d;
+}
+.info__button-toggled {
+    transform: rotateZ(90deg);
+}
+.info__title {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
