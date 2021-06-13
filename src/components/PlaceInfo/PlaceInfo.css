@@ -4,22 +4,32 @@
     z-index: 99;
     width: 100%;
     height: 100vh;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: 100vh;
     display: flex;
     justify-content: space-between;
+    pointer-events: none;
 }
-.info-hidden {
+.info-hidden .info__dialog {
     left: -450px;
     /* transition: all .6s ease-in-out; */
 }
+.info-hidden .info__toggler {
+    left: 15px;
+}
 .info__dialog {
+    position: absolute;
+    left: 0;
     box-sizing: border-box;
     padding: 30px 10px;
-    width: 450px;
+    width: 80%;
+    max-width: 450px;
+    pointer-events: auto; 
     height: 100vh;
     background-color: white;
     box-shadow: 1px 0 10px rgba(0, 0, 0, .5);
+    overflow-y: scroll;
 }
 .info__part {
     display: flex;
@@ -48,6 +58,7 @@
     font-weight: bolder;
     border-radius: 9px;
     color: white;
+    pointer-events: auto; 
 }
 .info__images {
     display: flex;
@@ -94,6 +105,7 @@
     position: relative;
     top: 30px;
     width: 40px;
+    pointer-events: auto; 
     height: 30px;
     border: none;
     outline: none;
@@ -102,6 +114,8 @@
     background-position: center;
     transition: all .3s ease-in-out;
     transform: rotateZ(270deg);
+    right: 0;
+    position: absolute;
 }
 .info__toggler:hover {
     cursor: pointer;
@@ -115,3 +129,21 @@
     font-weight: bolder;
     margin: 0;
 }
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
