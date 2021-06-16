@@ -22,7 +22,7 @@
     position: absolute;
     left: 0;
     box-sizing: border-box;
-    padding: 30px 10px;
+    padding: 80px 10px;
     width: 80%;
     max-width: 450px;
     pointer-events: auto; 
@@ -103,7 +103,7 @@
     border-radius: 8px;
     background-color: #4d4d4d;
     position: relative;
-    top: 30px;
+    top: 80px;
     width: 40px;
     pointer-events: auto; 
     height: 30px;
