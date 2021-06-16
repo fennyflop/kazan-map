@@ -41,21 +41,11 @@ const App = () => {
       speech: "Думаю этот веб-сайт можно будет распространять по QR кодам. Так наша презентация будет интереснее с интерактивом.",
       coordinates: [55.821496, 49.160784],
       date: "12/06",
-      images: [
-        "https://media.discordapp.net/attachments/831925379253010497/831960799421399110/image0.jpg?width=1211&height=910",
-        "https://media.discordapp.net/attachments/831925379253010497/831961661325574166/image0.jpg?width=682&height=910",
-        "https://media.discordapp.net/attachments/831925379253010497/831961661664657418/image1.jpg?width=682&height=910",
-      ]
     },
     {
       speech: "Буду ждать идей и советов насчёт веб-сайта. Также очень жду сообщений об разных местах. Их добавлять долго, желательно получить всё до вечера четверга.",
       coordinates: [55.810584, 49.122956],
       date: "12/06",
-      images: [
-        "https://media.discordapp.net/attachments/831925379253010497/831960799421399110/image0.jpg?width=1211&height=910",
-        "https://media.discordapp.net/attachments/831925379253010497/831961661325574166/image0.jpg?width=682&height=910",
-        "https://media.discordapp.net/attachments/831925379253010497/831961661664657418/image1.jpg?width=682&height=910",
-      ]
     },
     {
       speech: "Вот и конец! Надеюсь тебе понравилось приключение!"
