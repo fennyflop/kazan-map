@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kazan-map/static/css/main.a9bd29eb.chunk.css",
+    "main.css": "/kazan-map/static/css/main.d7e9dd38.chunk.css",
     "main.js": "/kazan-map/static/js/main.a48947ff.chunk.js",
     "main.js.map": "/kazan-map/static/js/main.a48947ff.chunk.js.map",
     "runtime-main.js": "/kazan-map/static/js/runtime-main.a42d150d.js",
@@ -10,14 +10,14 @@
     "static/js/3.2026d11c.chunk.js": "/kazan-map/static/js/3.2026d11c.chunk.js",
     "static/js/3.2026d11c.chunk.js.map": "/kazan-map/static/js/3.2026d11c.chunk.js.map",
     "index.html": "/kazan-map/index.html",
-    "static/css/main.a9bd29eb.chunk.css.map": "/kazan-map/static/css/main.a9bd29eb.chunk.css.map",
+    "static/css/main.d7e9dd38.chunk.css.map": "/kazan-map/static/css/main.d7e9dd38.chunk.css.map",
     "static/js/2.bfb1d7c8.chunk.js.LICENSE.txt": "/kazan-map/static/js/2.bfb1d7c8.chunk.js.LICENSE.txt",
     "static/media/PlaceInfo.css": "/kazan-map/static/media/button.4da05c0c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a42d150d.js",
     "static/js/2.bfb1d7c8.chunk.js",
-    "static/css/main.a9bd29eb.chunk.css",
+    "static/css/main.d7e9dd38.chunk.css",
     "static/js/main.a48947ff.chunk.js"
   ]
 }
