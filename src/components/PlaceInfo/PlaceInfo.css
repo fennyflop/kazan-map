@@ -16,27 +16,42 @@
     /* transition: all .6s ease-in-out; */
 }
 .info-hidden .info__toggler {
-    left: 15px;
+    left: 10px;
+}
+.info__name {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.info__real-title {
+    color: white;
+    margin: 0 0 20px;
+    text-align: center;
 }
 .info__dialog {
     position: absolute;
     left: 0;
     box-sizing: border-box;
-    padding: 80px 10px;
-    width: 80%;
+    padding: 60px 20px 80px 10px;
+    width: 85%;
     max-width: 450px;
     pointer-events: auto; 
     height: 100vh;
-    background-color: white;
+    background-color: #1A1A2E;
     box-shadow: 1px 0 10px rgba(0, 0, 0, .5);
     overflow-y: scroll;
+}
+.info__person {
+    border-right: 1px solid grey;
 }
 .info__part {
     display: flex;
 }
 .info__progress {
     font-size: 20px;
-    margin: 10px 0 0;
+    margin: 10px auto 0;
+    color: white;
+    font-weight: bold;
 }
 .info__date {  
     margin: 0;
@@ -65,10 +80,11 @@
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .info__image {
-    width: 210px;
+    width: 190px;
+    border: 1px solid white;
     height: 200px;
     object-fit: cover;
     object-position: center;
@@ -80,20 +96,20 @@
     transform: scale(1.05);
 }
 .info__back {
-    background-color: rgb(36,36,36);
+    background-color: #0F3460;
     margin-right: 15px;
 }
 .info__next {
     /* margin-left: 30px; */
-    background-color: #198cff;
+    background-color: #E94560;
 }
 .info__button:hover {
     cursor: pointer;
 }
 .info__speaker {
     /* border-radius: 50%; */
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-position: center;
     background-size: cover;
     margin-right: 10px;
@@ -101,12 +117,12 @@
 .info__toggler {
     transform: rotate(90deg);
     border-radius: 8px;
-    background-color: #4d4d4d;
+    background-color: #E94560;
     position: relative;
     top: 80px;
-    width: 40px;
+    width: 50px;
     pointer-events: auto; 
-    height: 30px;
+    height: 50px;
     border: none;
     outline: none;
     background-image: url('../../images/button.svg');
@@ -119,15 +135,17 @@
 }
 .info__toggler:hover {
     cursor: pointer;
-    background-color: #2d2d2d;
+    background-color: #E94560;
+    opacity: .9;
 }
 .info__button-toggled {
     transform: rotateZ(90deg);
 }
 .info__title {
     font-size: 20px;
-    font-weight: bolder;
-    margin: 0;
+    font-weight: normal;
+    color: white;
+    margin: 0 0 0 10px;
 }
 ::-webkit-scrollbar {
     width: 1px;
@@ -146,4 +164,22 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
+  }
+
+  .info__subtext {
+      color: white;
+      margin: 20px 0 0;
+  }
+
+  @media screen and (max-width: 500px) {
+    .info__image {
+        width: 163px;
+        height: 175px;
+    }
+}
+  @media screen and (max-width: 430px) {
+      .info__image {
+          width: 150px;
+          height: 150px;
+      }
   }

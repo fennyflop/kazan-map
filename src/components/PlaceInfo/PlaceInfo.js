@@ -9,13 +9,17 @@ const PlaceInfo = ({place, isPlaceToggled, togglePlace, currentId, slides, nextS
     return (
         <section className={`info ${isPlaceToggled ? '' : "info-hidden"}`}>
             <div className="info__dialog">
+                <h1 className="info__real-title">
+                    {slides[currentId].name || ''}
+                </h1>
                 <div className="info__part">
                     <div className="info__person">
-                        <img className="info__speaker" src={imageUrl} alt="bars" />
-                        <p className="info__date">{slides[currentId].date ? `-> ${slides[currentId].date}` : ''}</p>
+                    <img className="info__speaker" src={imageUrl} alt="speaker" />
+                    <p className="info__name">Снежный барс</p>
                     </div>
                     <h1 className="info__title">{slides[currentId].speech}</h1>
                 </div>
+                <p className="info__subtext">{slides[currentId].images ? "Фотографии:" : ''}</p>
                 <div className="info__images">
                     {
                         slides[currentId].images ? 
@@ -30,7 +34,7 @@ const PlaceInfo = ({place, isPlaceToggled, togglePlace, currentId, slides, nextS
                 </div>
                 <div className="info__buttons">
                     {currentId ? <button className="info__button info__back" onClick={backSlide}>Назад</button> : ""}
-                    {currentId + 1 === slides.length ? "" : <button className="info__button info__next" onClick={nextSlide}>Дальше =></button>}
+                    {currentId + 1 === slides.length ? "" : <button className="info__button info__next" onClick={nextSlide}>Дальше</button>}
                 </div>
                 <p className="info__progress">{currentId + 1}/{slides.length}</p>
             </div>
