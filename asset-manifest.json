@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kazan-map/static/css/main.ec4b9afb.chunk.css",
-    "main.js": "/kazan-map/static/js/main.3098f701.chunk.js",
-    "main.js.map": "/kazan-map/static/js/main.3098f701.chunk.js.map",
+    "main.js": "/kazan-map/static/js/main.84c4ac90.chunk.js",
+    "main.js.map": "/kazan-map/static/js/main.84c4ac90.chunk.js.map",
     "runtime-main.js": "/kazan-map/static/js/runtime-main.a42d150d.js",
     "runtime-main.js.map": "/kazan-map/static/js/runtime-main.a42d150d.js.map",
     "static/js/2.bfb1d7c8.chunk.js": "/kazan-map/static/js/2.bfb1d7c8.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.a42d150d.js",
     "static/js/2.bfb1d7c8.chunk.js",
     "static/css/main.ec4b9afb.chunk.css",
-    "static/js/main.3098f701.chunk.js"
+    "static/js/main.84c4ac90.chunk.js"
   ]
 }
